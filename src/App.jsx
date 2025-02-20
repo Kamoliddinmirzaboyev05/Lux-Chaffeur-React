@@ -2,19 +2,63 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-
-  const [open , setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <>
       <header>
-        <div className="mobileModal">
+        <div className={open ? "mobileModal modalOpen" : "mobileModal"}>
           <ul className="modalLinks">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#fleet">Fleet</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a
+                onClick={() => {
+                  setOpen(false);
+                }}
+                href="#home"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={() => {
+                  setOpen(false);
+                }}
+                href="#about"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={() => {
+                  setOpen(false);
+                }}
+                href="#service"
+              >
+                Service
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={() => {
+                  setOpen(false);
+                }}
+                href="#fleet"
+              >
+                Fleet
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={() => {
+                  setOpen(false);
+                }}
+                href="#contact"
+              >
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
         <nav>
@@ -39,10 +83,12 @@ function App() {
                 <a href="#contact">Contact us</a>
               </li>
             </ul>
-            <div onClick={()=>{
-              setOpen(!open)
-              
-            }} className="bar">
+            <div
+              onClick={() => {
+                setOpen(true);
+              }}
+              className="bar"
+            >
               <i className="fa-solid fa-bars"></i>
             </div>
           </div>
