@@ -64,7 +64,7 @@ function App() {
         <nav>
           <div className="container">
             <div className="logo">
-              <img src="/public/logo.svg" alt="" />
+              <img src="/logo.svg" alt="" />
             </div>
             <ul className="links">
               <li>
@@ -103,14 +103,14 @@ function App() {
               </h1>
             </div>
             <div className="mers">
-              <img src="/public/image 2.png" alt="" />
+              <img src="/image 2.png" alt="" />
             </div>
           </div>
           <div className="hero-img">
-            <img src="/public/hero-img.png" alt="" />
+            <img src="/hero-img.png" alt="" />
           </div>
           <div className="mobile-img">
-            <img src="/public/mobile-img.png" alt="" />
+            <img src="/mobile-img.png" alt="" />
           </div>
         </div>
       </header>
@@ -119,7 +119,7 @@ function App() {
         <section className="section1" id="about">
           <div className="container">
             <div className="sct1-img">
-              <img src="/public/sct1.png" alt="" />
+              <img src="/sct1.png" alt="" />
             </div>
             <div className="sct1-text">
               <h2>About </h2>
@@ -155,7 +155,7 @@ function App() {
             <div className="sct2-block">
               <div className="sct2-box">
                 <div className="box-img">
-                  <img src="/public/sct2.1.svg" alt="" />
+                  <img src="/sct2.1.svg" alt="" />
                 </div>
                 <div className="box-text">
                   <h3>Lorem ipsum dolor sit amet</h3>
@@ -175,7 +175,7 @@ function App() {
               </div>
               <div className="sct2-box">
                 <div className="box-img">
-                  <img src="/public/sct2.2.svg" alt="" />
+                  <img src="/sct2.2.svg" alt="" />
                 </div>
                 <div className="box-text">
                   <h3>Lorem ipsum dolor sit amet</h3>
@@ -195,7 +195,7 @@ function App() {
               </div>
               <div className="sct2-box">
                 <div className="box-img">
-                  <img src="/public/sct2.3.svg" alt="" />
+                  <img src="/sct2.3.svg" alt="" />
                 </div>
                 <div className="box-text">
                   <h3>Lorem ipsum dolor sit amet</h3>
@@ -225,14 +225,14 @@ function App() {
             </div>
             <div className="sct3-block">
               <div className="left">
-                <img src="/public/left.svg" alt="" />
+                <img src="/left.svg" alt="" />
               </div>
               <div className="right">
-                <img src="/public/right.svg" alt="" />
+                <img src="/right.svg" alt="" />
               </div>
               <div className="sct3-box">
                 <div className="box3-img">
-                  <img src="/public/sct3.1.png" alt="" />
+                  <img src="/sct3.1.png" alt="" />
                 </div>
                 <div className="box-text">
                   <h1 className="box-title">FIRST CLASS</h1>
@@ -245,18 +245,18 @@ function App() {
                 </div>
                 <div className="box-foot">
                   <div className="users">
-                    <img src="/public/users.svg" alt="" />
+                    <img src="/users.svg" alt="" />
                     <p>4 Seats</p>
                   </div>
                   <div className="gas">
-                    <img src="/public/gas.svg" alt="" />
+                    <img src="/gas.svg" alt="" />
                     <p>2 Luggage</p>
                   </div>
                 </div>
               </div>
               <div className="sct3-box">
                 <div className="box3-img">
-                  <img src="/public/sct3.2.png" alt="" />
+                  <img src="/sct3.2.png" alt="" />
                 </div>
                 <div className="box-text">
                   <h1 className="box-title">BUSINESS CLASS</h1>
@@ -269,18 +269,18 @@ function App() {
                 </div>
                 <div className="box-foot">
                   <div className="users">
-                    <img src="/public/users.svg" alt="" />
+                    <img src="/users.svg" alt="" />
                     <p>4 Seats</p>
                   </div>
                   <div className="gas">
-                    <img src="/public/gas.svg" alt="" />
+                    <img src="/gas.svg" alt="" />
                     <p>2 Luggage</p>
                   </div>
                 </div>
               </div>
               <div className="sct3-box">
                 <div className="box3-img">
-                  <img src="/public/sct3.3.png" alt="" />
+                  <img src="/sct3.3.png" alt="" />
                 </div>
                 <div className="box-text">
                   <h1 className="box-title">SUV</h1>
@@ -293,18 +293,18 @@ function App() {
                 </div>
                 <div className="box-foot">
                   <div className="users">
-                    <img src="/public/users.svg" alt="" />
+                    <img src="/users.svg" alt="" />
                     <p>4 Seats</p>
                   </div>
                   <div className="gas">
-                    <img src="/public/gas.svg" alt="" />
+                    <img src="/gas.svg" alt="" />
                     <p>2 Luggage</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="dots">
-              <img src="/public/dots.svg" alt="" />
+              <img src="/dots.svg" alt="" />
             </div>
           </div>
         </section>
@@ -333,7 +333,7 @@ function App() {
             </div>
             <div className="comment">
               <div className="women">
-                <img src="/public/woman.svg" alt="" />
+                <img src="/woman.svg" alt="" />
                 <h2>Annie Rudy</h2>
                 <p>Las vegas</p>
               </div>
@@ -345,11 +345,11 @@ function App() {
                   lectus viverra donec. At faucibus nunc vel viverra massa
                   malesuada leo iaculis tellus.
                 </p>
-                <img src="/public/stars.svg" alt="" />
+                <img src="/stars.svg" alt="" />
               </div>
             </div>
             <div className="dots2">
-              <img src="/public/dots2.svg" alt="" />
+              <img src="/dots2.svg" alt="" />
             </div>
           </div>
         </section>
@@ -397,7 +397,7 @@ function App() {
           <div className="footer-data">
             <div className="about-we">
               <div className="foot-logo">
-                <img src="/public/logo.svg" alt="" />
+                <img src="/logo.svg" alt="" />
               </div>
               <p className="foot-info">
                 We are known for luxurious and premium chaffeur services
